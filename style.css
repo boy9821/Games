@@ -1,4 +1,4 @@
-main{grid;
+main{display:grid;
   grid-template-areas:
    'aside article article'
    'aside footer footer';
