@@ -1,4 +1,13 @@
- header {background-color: #8ff9e0;}
-  aside {background-color: #FFF176;}
-article {background-color: #E8EAF6;}
- footer {background-color: #342FD4;}
+main{grid;
+  grid-template-areas:
+   'aside article article'
+   'aside footer footer';
+ grid-gap: 30px;
+}
+header { background-color: #8ff9e0;}
+  aside {grid-area: aside;
+         background-color: #FFF176;}
+article {grid-area: article;
+         background-color: #E8EAF6;}
+ footer {grid-area: footer;
+         background-color: #342FD4;}
